@@ -35,7 +35,6 @@ public class Factorial {
 
 		//YOUR CODE STARTS HERE
 
-		 this.printStream.print("Please enter a number.");
 		 int num = scanner.nextInt();
 		 if(num >= 1 && num <= 10){
 			 return num;
@@ -62,11 +61,9 @@ public class Factorial {
 		 
 		int result = 1;
 		//YOUR CODE STARTS HERE
-
- 		for(int i = 1; i<=num; i++){
-			result = result * i;
+ 		for(int i = 0; i<num; i++){
+			result += result * i;
 		}
-
 		//YOUR CODE ENDS HERE
 		this.printStream.print("The Factorial is: " + result);		
 		
