@@ -40,7 +40,7 @@ public class Factorial {
 		 if(num >= 1 && num <= 10){
 			 return num;
 		 } else{
-			 this.rpintSteam.print("Invalid entry. Please enter an integer between 1 and 10, inclusive.");
+			 this.printSteam.print("Invalid entry. Please enter an integer between 1 and 10, inclusive.");
 			 return -1;
 		 }
 
